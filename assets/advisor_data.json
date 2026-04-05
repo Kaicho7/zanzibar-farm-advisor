@@ -1,0 +1,578 @@
+{
+  "diseases": [
+    {
+      "key": "Early_blight",
+      "name": {"en": "Early Blight", "sw": "Madoa ya Mapema"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "Dark brown spots with concentric rings (target-board pattern) on older leaves. Yellowing around spots. Leaves drop prematurely.",
+        "sw": "Madoa ya kahawia na mviringo (mfano wa bodi la shabaha) kwenye majani ya zamani. Njano inazunguka madoa. Majani huanguka mapema."
+      },
+      "treatment": {
+        "en": "1. Remove and destroy infected leaves immediately.\n2. Apply copper-based fungicide (copper hydroxide) every 7–10 days.\n3. Avoid watering leaves — water at soil level only.\n4. Improve air circulation by pruning dense growth.",
+        "sw": "1. Ondoa na angamiza majani yaliyoathirika mara moja.\n2. Piga dawa ya ukungu yenye shaba (copper hydroxide) kila siku 7–10.\n3. Usimwagilie majani — mwagilia kwenye udongo tu.\n4. Boresha mzunguko wa hewa kwa kukata matawi mazito."
+      },
+      "prevention": {
+        "en": "Rotate crops every 2–3 seasons. Mulch around base. Use certified disease-free seeds. Keep field weed-free.",
+        "sw": "Zungusha mazao kila miaka 2–3. Weka matandazo chini ya mmea. Tumia mbegu safi zenye cheti. Shamba liwe safi bila magugu."
+      },
+      "market_impact": {
+        "en": "Can reduce yield by 20–50% if untreated. Affected fruit loses market value. Act within 3 days of first symptoms.",
+        "sw": "Inaweza kupunguza mavuno kwa 20–50% bila matibabu. Matunda yaliyoathirika yanapoteza thamani sokoni. Chukua hatua ndani ya siku 3 za dalili za kwanza."
+      },
+      "organic_remedies": [
+        "Baking soda spray (1 tsp per litre of water)",
+        "Neem oil spray (2ml per litre)",
+        "Garlic extract spray",
+        "Compost tea foliar spray"
+      ],
+      "chemical_options": [
+        "Mancozeb 80% WP",
+        "Chlorothalonil",
+        "Copper oxychloride",
+        "Azoxystrobin"
+      ]
+    },
+    {
+      "key": "Late_blight",
+      "name": {"en": "Late Blight", "sw": "Madoa ya Marehemu"},
+      "severity": "high",
+      "symptoms": {
+        "en": "Water-soaked greyish-green spots on leaves that turn brown/black rapidly. White mould visible on leaf undersides in humid conditions. Dark lesions on stems and fruit.",
+        "sw": "Madoa ya kijani-kijivu yenye maji kwenye majani yanayogeuka kahawia/nyeusi haraka. Ukungu mweupe unaonekana chini ya majani katika hali ya unyevu. Vidonda vya giza kwenye mashina na matunda."
+      },
+      "treatment": {
+        "en": "URGENT — act immediately. Late blight spreads extremely fast.\n1. Remove ALL affected plant parts and burn them (do not compost).\n2. Apply metalaxyl + mancozeb fungicide.\n3. Spray entire crop — including healthy plants.\n4. Repeat every 5–7 days until conditions dry out.",
+        "sw": "DHARURA — chukua hatua mara moja. Madoa ya marehemu yanasambaa haraka sana.\n1. Ondoa sehemu ZOTE za mmea zilizoathirika na zichome (usizichanganye na mboji).\n2. Piga dawa ya metalaxyl + mancozeb.\n3. Piga dawa zao zote — ikiwa ni pamoja na mimea yenye afya.\n4. Rudia kila siku 5–7 hadi hali iwe kavu."
+      },
+      "prevention": {
+        "en": "Plant resistant varieties. Ensure good drainage. Avoid overhead irrigation. Apply preventive fungicide during rainy seasons.",
+        "sw": "Panda aina zinazostahimili ugonjwa. Hakikisha mifereji mizuri. Epuka umwagiliaji wa juu. Piga dawa ya kuzuia ukungu wakati wa mvua."
+      },
+      "market_impact": {
+        "en": "Can destroy entire crop within 1–2 weeks. Highest priority disease — seek help from local agricultural extension office immediately.",
+        "sw": "Inaweza kuangamiza zao zima ndani ya wiki 1–2. Ugonjwa wa kipaumbele cha juu — tafuta msaada kutoka ofisi ya kilimo ya mtaa mara moja."
+      },
+      "organic_remedies": [
+        "Copper sulfate (Bordeaux mixture)",
+        "Neem oil (preventive only)",
+        "Remove affected plants immediately"
+      ],
+      "chemical_options": [
+        "Ridomil Gold (metalaxyl + mancozeb)",
+        "Revus (mandipropamid)",
+        "Infinito (fluopicolide + propamocarb)",
+        "Forum (dimethomorph)"
+      ]
+    },
+    {
+      "key": "Bacterial_spot",
+      "name": {"en": "Bacterial Spot", "sw": "Madoa ya Bakteria"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "Small water-soaked spots on leaves, stems and fruit. Spots turn dark with yellow halos. Fruit develops raised scab-like lesions.",
+        "sw": "Madoa madogo yenye maji kwenye majani, mashina na matunda. Madoa yanageuka giza na pete za njano. Matunda hupata vidonda vikali."
+      },
+      "treatment": {
+        "en": "1. Apply copper bactericide (copper hydroxide 77% WP).\n2. Remove severely infected leaves.\n3. Avoid working in field when plants are wet.\n4. Disinfect tools with bleach solution between plants.",
+        "sw": "1. Piga dawa ya bakteri yenye shaba (copper hydroxide 77% WP).\n2. Ondoa majani yaliyoathirika sana.\n3. Epuka kufanya kazi shambani wakati mimea ina unyevu.\n4. Safisha zana kwa bleach kati ya mimea."
+      },
+      "prevention": {
+        "en": "Use disease-free certified seeds. Practice crop rotation. Avoid overhead irrigation. Plant in well-ventilated areas.",
+        "sw": "Tumia mbegu safi zenye cheti. Zungusha mazao. Epuka umwagiliaji wa juu. Panda katika maeneo yenye uingizaji hewa mzuri."
+      },
+      "market_impact": {
+        "en": "Moderate impact on yield (10–30% loss). Fruit blemishes reduce market value significantly.",
+        "sw": "Athari ya wastani kwa mavuno (hasara ya 10–30%). Madonge kwenye matunda hupunguza sana thamani ya soko."
+      },
+      "organic_remedies": [
+        "Copper sulfate spray",
+        "Neem oil spray",
+        "Avoid leaf wetness"
+      ],
+      "chemical_options": [
+        "Copper hydroxide 77% WP",
+        "Actigard (acibenzolar-S-methyl)",
+        "Fixed copper bactericides"
+      ]
+    },
+    {
+      "key": "Leaf_Mold",
+      "name": {"en": "Leaf Mould", "sw": "Ukungu wa Majani"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "Pale green/yellow patches on upper leaf surface. Olive-green or brown velvety mould on the underside. Leaves curl and wither.",
+        "sw": "Madoa ya kijani hafifu/njano juu ya majani. Ukungu wa rangi ya mzeituni au kahawia, laini, chini ya jani. Majani hupinda na kunyauka."
+      },
+      "treatment": {
+        "en": "1. Reduce humidity — improve greenhouse ventilation or thin plants.\n2. Remove infected leaves.\n3. Apply chlorothalonil or mancozeb fungicide.\n4. Water in the morning so plants dry during the day.",
+        "sw": "1. Punguza unyevu — boresha uingizaji hewa wa chafu au nyoa mimea.\n2. Ondoa majani yaliyoathirika.\n3. Piga dawa ya chlorothalonil au mancozeb.\n4. Mwagilia asubuhi ili mimea ikauke mchana."
+      },
+      "prevention": {
+        "en": "Space plants adequately. Prune for airflow. Use resistant varieties. Avoid high humidity environments.",
+        "sw": "Acha nafasi ya kutosha kati ya mimea. Kata matawi kwa ajili ya hewa. Tumia aina zinazostahimili. Epuka mazingira ya unyevu mwingi."
+      },
+      "market_impact": {
+        "en": "Mainly affects leaves, reducing photosynthesis. Yield loss 15–40% if severe. Greenhouse crops at highest risk.",
+        "sw": "Huathiri majani zaidi, kupunguza usanisinuru. Hasara ya mavuno 15–40% ikiwa ni kali. Mazao ya chafu yako hatarini zaidi."
+      },
+      "organic_remedies": [
+        "Improve ventilation first",
+        "Baking soda solution spray",
+        "Neem oil spray"
+      ],
+      "chemical_options": [
+        "Chlorothalonil",
+        "Mancozeb",
+        "Azoxystrobin",
+        "Difenoconazole"
+      ]
+    },
+    {
+      "key": "Septoria_leaf_spot",
+      "name": {"en": "Septoria Leaf Spot", "sw": "Madoa ya Septoria"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "Small circular spots (3–6mm) with dark borders and light grey centres on lower leaves first. Tiny black dots (pycnidia) visible inside spots. Rapid defoliation.",
+        "sw": "Madoa madogo ya mviringo (3–6mm) na mipaka ya giza na katikati ya kijivu nyepesi kwenye majani ya chini kwanza. Nukta ndogo nyeusi (pycnidia) zinaonekana ndani ya madoa. Kupoteza majani haraka."
+      },
+      "treatment": {
+        "en": "1. Remove lower infected leaves immediately.\n2. Apply mancozeb, chlorothalonil or copper fungicide.\n3. Spray every 7–10 days.\n4. Stake plants to improve air circulation.",
+        "sw": "1. Ondoa majani ya chini yaliyoathirika mara moja.\n2. Piga dawa ya mancozeb, chlorothalonil au dawa ya shaba.\n3. Piga dawa kila siku 7–10.\n4. Simamisha mimea ili kuboresha mzunguko wa hewa."
+      },
+      "prevention": {
+        "en": "Mulch soil surface. Avoid overhead watering. Practice crop rotation (3 years minimum). Remove plant debris after harvest.",
+        "sw": "Weka matandazo juu ya udongo. Epuka kumwagilia juu. Zungusha mazao (miaka 3 angalau). Ondoa mabaki ya mazao baada ya mavuno."
+      },
+      "market_impact": {
+        "en": "Can cause 20–40% defoliation reducing photosynthesis and fruit size. Quality and quantity both affected.",
+        "sw": "Inaweza kusababisha kupoteza majani 20–40% kupunguza usanisinuru na ukubwa wa matunda. Ubora na wingi vyote vinaathirika."
+      },
+      "organic_remedies": [
+        "Copper sulfate (Bordeaux mixture)",
+        "Neem oil every 7 days",
+        "Remove infected plant material"
+      ],
+      "chemical_options": [
+        "Mancozeb 80% WP",
+        "Chlorothalonil 75% WP",
+        "Copper oxychloride",
+        "Difenoconazole"
+      ]
+    },
+    {
+      "key": "Spider_mites",
+      "name": {"en": "Spider Mites", "sw": "Utitiri wa Buibui"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "Tiny yellow/white speckles on leaves. Fine webbing on undersides. Leaves turn bronze, dry and fall. Severe bronzing in hot, dry weather.",
+        "sw": "Nukta ndogo za njano/nyeupe kwenye majani. Utando mzuri chini ya majani. Majani yanageuka shaba, yakauka na kuanguka. Rangi ya shaba kali wakati wa joto na ukame."
+      },
+      "treatment": {
+        "en": "1. Spray plants forcefully with water to knock off mites.\n2. Apply miticide (abamectin or bifenazate).\n3. Neem oil is effective for organic control.\n4. Introduce predatory mites (Phytoseiidae) if available.",
+        "sw": "1. Mwagilia mimea kwa nguvu ili kuondoa utitiri.\n2. Piga dawa ya utitiri (abamectin au bifenazate).\n3. Mafuta ya neem yanafaa kwa udhibiti wa kikaboni.\n4. Ingiza utitiri wa mwindaji (Phytoseiidae) ikiwezekana."
+      },
+      "prevention": {
+        "en": "Avoid drought stress — water regularly. Avoid dusty conditions. Remove weeds that harbour mites. Avoid excessive nitrogen fertiliser.",
+        "sw": "Epuka msongo wa ukame — mwagilia mara kwa mara. Epuka hali ya vumbi. Ondoa magugu yanayoweka utitiri. Epuka mbolea nyingi za nitrojeni."
+      },
+      "market_impact": {
+        "en": "Heavy infestation reduces fruit quality and size by 30–60%. Acts fast in hot and dry weather — monitor daily.",
+        "sw": "Shambulio kali hupunguza ubora na ukubwa wa matunda kwa 30–60%. Hufanya kazi haraka wakati wa joto na ukame — angalia kila siku."
+      },
+      "organic_remedies": [
+        "Neem oil 2ml/litre every 5 days",
+        "Insecticidal soap spray",
+        "Forceful water spray",
+        "Garlic and chili extract"
+      ],
+      "chemical_options": [
+        "Abamectin (Agrimec)",
+        "Bifenazate (Floramite)",
+        "Spiromesifen",
+        "Propargite"
+      ]
+    },
+    {
+      "key": "Target_Spot",
+      "name": {"en": "Target Spot", "sw": "Madoa ya Shabaha"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "Brown spots with concentric rings resembling a target. Occurs on leaves, stems and fruit. Lesions enlarge under warm humid conditions.",
+        "sw": "Madoa ya kahawia yenye mviringo kama shabaha. Huonekana kwenye majani, mashina na matunda. Majeraha hupanuka katika hali ya joto na unyevu."
+      },
+      "treatment": {
+        "en": "1. Apply azoxystrobin or pyraclostrobin fungicide.\n2. Remove heavily infected leaves.\n3. Improve air circulation.\n4. Spray every 7–14 days in humid conditions.",
+        "sw": "1. Piga dawa ya azoxystrobin au pyraclostrobin.\n2. Ondoa majani yaliyoathirika sana.\n3. Boresha mzunguko wa hewa.\n4. Piga dawa kila siku 7–14 katika hali ya unyevu."
+      },
+      "prevention": {
+        "en": "Use wider plant spacing. Stake and prune for airflow. Avoid overhead irrigation. Remove crop debris promptly.",
+        "sw": "Acha nafasi kubwa zaidi kati ya mimea. Simamisha na kata matawi kwa hewa. Epuka umwagiliaji wa juu. Ondoa mabaki ya mazao haraka."
+      },
+      "market_impact": {
+        "en": "Moderate impact — primarily a quality issue. Fruit spotting reduces market grade significantly.",
+        "sw": "Athari ya wastani — hasa tatizo la ubora. Madoa ya matunda hupunguza kiwango cha soko sana."
+      },
+      "organic_remedies": [
+        "Copper-based fungicide",
+        "Neem oil spray",
+        "Remove crop debris"
+      ],
+      "chemical_options": [
+        "Azoxystrobin (Amistar)",
+        "Pyraclostrobin (Cabrio)",
+        "Boscalid + pyraclostrobin (Pristine)",
+        "Mancozeb"
+      ]
+    },
+    {
+      "key": "Yellow_Leaf_Curl_Virus",
+      "name": {"en": "Yellow Leaf Curl Virus", "sw": "Virusi vya Majani Kukunjana na Manjano"},
+      "severity": "high",
+      "symptoms": {
+        "en": "Leaves curl upwards and turn yellow at margins. Stunted growth. Flower drop and poor fruit set. Transmitted by whiteflies.",
+        "sw": "Majani hupinda juu na njano zinaonekana pembezoni. Ukuaji mdogo. Maua huanguka na matunda machache. Husambazwa na nzi weupe."
+      },
+      "treatment": {
+        "en": "No cure for infected plants.\n1. Remove and destroy infected plants immediately to prevent spread.\n2. Control whitefly vectors with imidacloprid or thiamethoxam.\n3. Use reflective mulch to repel whiteflies.\n4. Plant resistant varieties for next season.",
+        "sw": "Hakuna tiba kwa mimea iliyoathirika.\n1. Ondoa na angamiza mimea iliyoathirika mara moja ili kuzuia kuenea.\n2. Dhibiti nzi weupe kwa imidacloprid au thiamethoxam.\n3. Tumia matandazo ya kuakisi ili kufukuza nzi weupe.\n4. Panda aina zinazostahimili kwa msimu ujao."
+      },
+      "prevention": {
+        "en": "Plant virus-resistant varieties (TY varieties). Control whitefly populations from seedling stage. Use insect-proof nets in nursery. Remove infected plants promptly.",
+        "sw": "Panda aina zinazostahimili virusi (aina za TY). Dhibiti idadi ya nzi weupe tangu hatua ya miche. Tumia nyavu ya kuzuia wadudu katika kitalu. Ondoa mimea iliyoathirika haraka."
+      },
+      "market_impact": {
+        "en": "Can cause 70–100% yield loss in severe outbreaks. Prioritise whitefly control as a preventive measure every season.",
+        "sw": "Inaweza kusababisha hasara ya mavuno ya 70–100% katika milipuko mikali. Thamini udhibiti wa nzi weupe kama hatua ya kuzuia kila msimu."
+      },
+      "organic_remedies": [
+        "Reflective silver mulch to repel whiteflies",
+        "Neem oil spray for whitefly control",
+        "Yellow sticky traps",
+        "Remove infected plants immediately"
+      ],
+      "chemical_options": [
+        "Imidacloprid (Confidor) for whitefly",
+        "Thiamethoxam (Actara)",
+        "Spirotetramat (Movento)",
+        "Pyriproxyfen"
+      ]
+    },
+    {
+      "key": "mosaic_virus",
+      "name": {"en": "Mosaic Virus", "sw": "Virusi vya Mosaki"},
+      "severity": "high",
+      "symptoms": {
+        "en": "Irregular light and dark green mottling on leaves. Leaf distortion and curling. Stunted growth. Fruit may show discolouration. Spreads through aphids and contact.",
+        "sw": "Mwangaza usio wa kawaida wa kijani na giza kwenye majani. Majani kupinda. Ukuaji mdogo. Matunda yanaweza kuonyesha kubadilika kwa rangi. Husambazwa na aphids na mgusano."
+      },
+      "treatment": {
+        "en": "No chemical cure.\n1. Remove and destroy infected plants.\n2. Control aphid vectors with insecticide.\n3. Wash hands and disinfect tools before handling healthy plants.\n4. Avoid working in field when plants are wet.",
+        "sw": "Hakuna dawa ya kuua.\n1. Ondoa na angamiza mimea iliyoathirika.\n2. Dhibiti aphids kwa dawa ya wadudu.\n3. Osha mikono na safisha zana kabla ya kushughulikia mimea yenye afya.\n4. Epuka kufanya kazi shambani wakati mimea ina unyevu."
+      },
+      "prevention": {
+        "en": "Use virus-free certified seeds. Control aphid populations. Remove weeds. Disinfect all tools. Plant tolerant varieties.",
+        "sw": "Tumia mbegu safi zenye cheti. Dhibiti idadi ya aphids. Ondoa magugu. Safisha zana zote. Panda aina zinazostahimili."
+      },
+      "market_impact": {
+        "en": "Significant yield and quality loss. Infected plants rarely recover — early removal prevents spread to neighbours.",
+        "sw": "Hasara kubwa ya mavuno na ubora. Mimea iliyoathirika hurejea nadra — kuondolewa mapema kunazuia kuenea kwa jirani."
+      },
+      "organic_remedies": [
+        "Remove infected plants immediately",
+        "Control aphids with neem oil",
+        "Reflective mulch to repel aphids",
+        "Avoid handling plants when wet"
+      ],
+      "chemical_options": [
+        "Imidacloprid for aphid control",
+        "Acetamiprid",
+        "Spirotetramat (systemic)"
+      ]
+    },
+    {
+      "key": "Powdery_mildew",
+      "name": {"en": "Powdery Mildew", "sw": "Ukungu Mweupe"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "White powdery coating on leaf surfaces, stems and sometimes fruit. Affected leaves turn yellow then brown. Thrives in warm, dry conditions with high humidity at night.",
+        "sw": "Mipako nyeupe ya poda kwenye uso wa majani, mashina na wakati mwingine matunda. Majani yaliyoathirika yanageuka njano kisha kahawia. Hustawi katika hali ya joto na kavu na unyevu wa juu usiku."
+      },
+      "treatment": {
+        "en": "1. Apply sulphur-based fungicide or potassium bicarbonate.\n2. Neem oil is effective — spray every 7 days.\n3. Remove heavily infected plant parts.\n4. Ensure good air circulation.",
+        "sw": "1. Piga dawa ya ukungu yenye salfa au potassium bicarbonate.\n2. Mafuta ya neem yanafaa — piga dawa kila siku 7.\n3. Ondoa sehemu za mmea zilizoathirika sana.\n4. Hakikisha mzunguko mzuri wa hewa."
+      },
+      "prevention": {
+        "en": "Space plants well. Avoid excessive nitrogen. Water in the morning. Plant resistant varieties when available.",
+        "sw": "Acha nafasi nzuri kati ya mimea. Epuka nitrojeni nyingi. Mwagilia asubuhi. Panda aina zinazostahimili zinapoopatikana."
+      },
+      "market_impact": {
+        "en": "Reduces fruit quality and marketability. Moderate yield impact (10–30%). Early treatment keeps losses minimal.",
+        "sw": "Hupunguza ubora wa matunda na uuzaji. Athari ya wastani ya mavuno (10–30%). Matibabu ya mapema hupunguza hasara."
+      },
+      "organic_remedies": [
+        "Neem oil 2ml/litre spray",
+        "Baking soda 1 tsp/litre spray",
+        "Potassium bicarbonate",
+        "Milk spray (30% dilution)"
+      ],
+      "chemical_options": [
+        "Sulphur 80% WP",
+        "Myclobutanil",
+        "Trifloxystrobin",
+        "Tebuconazole"
+      ]
+    },
+    {
+      "key": "Common_rust",
+      "name": {"en": "Common Rust", "sw": "Kutu ya Kawaida"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "Small powdery pustules (orange-red to brown) on both leaf surfaces. Pustules burst releasing orange spores. Leaves turn yellow and die under heavy attack.",
+        "sw": "Viputo vidogo vya poda (machungwa-nyekundu hadi kahawia) kwenye pande zote mbili za majani. Viputo vinavunjika na kutoa spores za machungwa. Majani yanageuka njano na kufa katika shambulio kali."
+      },
+      "treatment": {
+        "en": "1. Apply triazole fungicide (tebuconazole or propiconazole).\n2. Spray at first sign of pustules.\n3. Cover both upper and lower leaf surfaces.\n4. Repeat every 10–14 days.",
+        "sw": "1. Piga dawa ya triazole (tebuconazole au propiconazole).\n2. Piga dawa kwa dalili ya kwanza ya viputo.\n3. Funika pande zote mbili za majani juu na chini.\n4. Rudia kila siku 10–14."
+      },
+      "prevention": {
+        "en": "Plant rust-resistant varieties. Scout fields weekly during warm humid weather. Apply preventive fungicide in high-risk seasons.",
+        "sw": "Panda aina zinazostahimili kutu. Angalia mashamba kila wiki wakati wa joto na unyevu. Piga dawa ya kuzuia katika misimu ya hatari kubwa."
+      },
+      "market_impact": {
+        "en": "Can reduce corn/maize yield by 10–30% if unchecked. Acts quickly — don't wait to treat.",
+        "sw": "Inaweza kupunguza mavuno ya mahindi kwa 10–30% bila udhibiti. Hufanya kazi haraka — usisita kutibu."
+      },
+      "organic_remedies": [
+        "Sulphur dust or spray",
+        "Neem oil spray",
+        "Remove severely infected leaves"
+      ],
+      "chemical_options": [
+        "Tebuconazole (Folicur)",
+        "Propiconazole (Tilt)",
+        "Azoxystrobin + propiconazole (Quilt)",
+        "Trifloxystrobin"
+      ]
+    },
+    {
+      "key": "Northern_Leaf_Blight",
+      "name": {"en": "Northern Leaf Blight", "sw": "Ugonjwa wa Majani ya Kaskazini"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "Long, cigar-shaped grey-green lesions on corn leaves. Lesions turn tan with wavy margins. Spreads upward from lower leaves. Can affect entire canopy if severe.",
+        "sw": "Majeraha marefu, kama sigara ya kijani-kijivu kwenye majani ya mahindi. Majeraha yanageuka rangi ya udongo na mipaka ya mawimbi. Husambaa juu kutoka majani ya chini. Inaweza kuathiri msururu mzima ikiwa ni kali."
+      },
+      "treatment": {
+        "en": "1. Apply strobilurin or triazole fungicide at first sign.\n2. Scout from tasseling stage.\n3. Spray upper and lower leaf surfaces.\n4. Repeat if weather remains conducive.",
+        "sw": "1. Piga dawa ya strobilurin au triazole kwa dalili ya kwanza.\n2. Angalia tangu hatua ya kuchipua.\n3. Piga dawa juu na chini ya majani.\n4. Rudia ikiwa hali ya hewa inabaki."
+      },
+      "prevention": {
+        "en": "Plant resistant hybrids. Crop rotation with non-host crops. Tillage to bury infected residue. Avoid dense planting.",
+        "sw": "Panda mseto unaostahimili. Zungusha mazao na mazao yasiyo mwenyeji. Lima ardhi ili kuzika mabaki yaliyoathirika. Epuka kupanda kwa msongamano."
+      },
+      "market_impact": {
+        "en": "Can reduce corn yield by 30–50% in severe outbreaks. Most dangerous when it appears before silking.",
+        "sw": "Inaweza kupunguza mavuno ya mahindi kwa 30–50% katika milipuko mikali. Ni hatari zaidi inapoonekana kabla ya silk."
+      },
+      "organic_remedies": [
+        "Plant resistant varieties",
+        "Crop rotation",
+        "Remove infected leaf material"
+      ],
+      "chemical_options": [
+        "Azoxystrobin (Amistar)",
+        "Propiconazole (Tilt)",
+        "Pyraclostrobin + metconazole (Headline AMP)",
+        "Picoxystrobin"
+      ]
+    },
+    {
+      "key": "Black_rot",
+      "name": {"en": "Black Rot", "sw": "Kuoza Nyeusi"},
+      "severity": "high",
+      "symptoms": {
+        "en": "V-shaped yellow to brown lesions starting from leaf margins. Black veins visible in lesion. Fruit shows dark sunken spots. Affects cruciferous crops and grapes.",
+        "sw": "Majeraha ya V ya njano hadi kahawia yanayoanza kutoka mipaka ya majani. Mishipa nyeusi inayoonekana kwenye jeraha. Matunda yanaonyesha madoa meusi yaliyozama. Huathiri mboga za cruciferous na zabibu."
+      },
+      "treatment": {
+        "en": "1. Remove infected plant parts immediately.\n2. Apply copper bactericide.\n3. Avoid wetting leaves during irrigation.\n4. Destroy crop debris after harvest — do not compost.",
+        "sw": "1. Ondoa sehemu za mmea zilizoathirika mara moja.\n2. Piga dawa ya bakteri yenye shaba.\n3. Epuka kunyesha majani wakati wa umwagiliaji.\n4. Angamiza mabaki ya mazao baada ya mavuno — usichanganye na mboji."
+      },
+      "prevention": {
+        "en": "Use disease-free seed. Rotate crops for 2+ years. Avoid working in wet fields. Control insects that create entry wounds.",
+        "sw": "Tumia mbegu safi. Zungusha mazao kwa miaka 2+. Epuka kufanya kazi katika mashamba yenye unyevu. Dhibiti wadudu wanaounda majeraha ya kuingia."
+      },
+      "market_impact": {
+        "en": "High economic impact — entire crop can be lost in severe cases. Common in rainy season — monitor carefully.",
+        "sw": "Athari kubwa ya kiuchumi — zao zima linaweza kupotea katika hali kali. Kawaida katika msimu wa mvua — angalia kwa makini."
+      },
+      "organic_remedies": [
+        "Hot water seed treatment",
+        "Copper sulfate spray",
+        "Crop rotation"
+      ],
+      "chemical_options": [
+        "Copper hydroxide",
+        "Copper oxychloride",
+        "Streptomycin (for bacterial cases)"
+      ]
+    },
+    {
+      "key": "Cassava_Bacterial_Blight",
+      "name": {"en": "Cassava Bacterial Blight", "sw": "Ugonjwa wa Bakteria wa Muhogo"},
+      "severity": "high",
+      "symptoms": {
+        "en": "Angular water-soaked spots on leaves turning brown. Wilting of leaf tips and stems. Gummy exudate on stems. Dieback of shoots from tips.",
+        "sw": "Madoa ya pembetatu yenye maji kwenye majani yanayogeuka kahawia. Kunyauka kwa ncha za majani na mashina. Ute wenye gamu kwenye mashina. Kufa kwa machipuko kutoka ncha."
+      },
+      "treatment": {
+        "en": "1. Use only disease-free healthy stem cuttings for planting.\n2. Remove and destroy affected stems.\n3. Apply copper bactericide to remaining plants.\n4. Avoid cutting across infected plants — disinfect tools.",
+        "sw": "1. Tumia vipande vya shina vyenye afya tu kwa kupanda.\n2. Ondoa na angamiza mashina yaliyoathirika.\n3. Piga dawa ya bakteri yenye shaba kwa mimea iliyobaki.\n4. Epuka kukata kwenye mimea iliyoathirika — safisha zana."
+      },
+      "prevention": {
+        "en": "Plant tolerant varieties. Use certified healthy cuttings. Rogue out infected plants early. Practice field hygiene.",
+        "sw": "Panda aina zinazostahimili. Tumia vipande safi vyenye cheti. Ng'oa mimea iliyoathirika mapema. Fanya usafi wa shamba."
+      },
+      "market_impact": {
+        "en": "Can cause 50–100% loss in severe outbreaks. Cassava is a staple — prioritise healthy planting material.",
+        "sw": "Inaweza kusababisha hasara ya 50–100% katika milipuko mikali. Muhogo ni chakula cha msingi — thamini nyenzo za kupanda zenye afya."
+      },
+      "organic_remedies": [
+        "Use disease-free cuttings only",
+        "Remove infected plants",
+        "Avoid wet-season planting in high-risk areas"
+      ],
+      "chemical_options": [
+        "Copper oxychloride",
+        "Copper hydroxide",
+        "Streptomycin + copper mixture"
+      ]
+    },
+    {
+      "key": "Cassava_Green_Mite",
+      "name": {"en": "Cassava Green Mite", "sw": "Utitiri wa Kijani wa Muhogo"},
+      "severity": "medium",
+      "symptoms": {
+        "en": "Angular chlorotic spots on upper leaf surface. Leaves curl and shrivel. Growing tips die back (witch's broom appearance). Tiny green mites visible with hand lens.",
+        "sw": "Madoa ya klorotiki ya pembe juu ya majani. Majani hupinda na kunyauka. Ncha za kukua hufa (mwonekano wa uchawi). Utitiri mdogo wa kijani unaonekana kwa lenzi ya mkono."
+      },
+      "treatment": {
+        "en": "1. Introduce Typhlodromalus aripo (predatory mite) — contact local extension.\n2. Apply abamectin miticide if predatory mites unavailable.\n3. Remove heavily infested shoot tips.\n4. Spray in evening to protect beneficial insects.",
+        "sw": "1. Ingiza Typhlodromalus aripo (utitiri wa mwindaji) — wasiliana na ugani wa kilimo wa mtaa.\n2. Piga dawa ya abamectin ikiwa utitiri wa mwindaji haupatikani.\n3. Ondoa ncha za machipuko zilizoshambuliwa sana.\n4. Piga dawa jioni ili kulinda wadudu wenye manufaa."
+      },
+      "prevention": {
+        "en": "Use mite-tolerant varieties. Avoid planting in dry season. Maintain plant vigour with proper nutrition.",
+        "sw": "Tumia aina zinazostahimili utitiri. Epuka kupanda wakati wa kiangazi. Dumisha nguvu ya mmea kwa lishe ifaayo."
+      },
+      "market_impact": {
+        "en": "Reduces cassava root yield by 13–80% depending on severity. Most severe in dry season.",
+        "sw": "Hupunguza mavuno ya mizizi ya muhogo kwa 13–80% kulingana na ukali. Ni kali zaidi wakati wa kiangazi."
+      },
+      "organic_remedies": [
+        "Predatory mite Typhlodromalus aripo (biological control)",
+        "Neem oil spray",
+        "Remove infested tips"
+      ],
+      "chemical_options": [
+        "Abamectin (Agrimec)",
+        "Bifenazate",
+        "Fenpyroximate"
+      ]
+    },
+    {
+      "key": "Cassava_Mosaic",
+      "name": {"en": "Cassava Mosaic Disease", "sw": "Ugonjwa wa Mosaki wa Muhogo"},
+      "severity": "high",
+      "symptoms": {
+        "en": "Mosaic yellow and green mottling on leaves. Leaf distortion and twisting. Severely stunted plants. Reduced root development.",
+        "sw": "Mwangaza wa mosaki wa njano na kijani kwenye majani. Kupinda na kujikunja kwa majani. Mimea midogo sana. Ukuaji mdogo wa mizizi."
+      },
+      "treatment": {
+        "en": "No cure.\n1. Remove and destroy infected plants immediately.\n2. Control whitefly vector with insecticide.\n3. Never use infected plants for cuttings.\n4. Plant cassava mosaic disease-resistant varieties.",
+        "sw": "Hakuna tiba.\n1. Ondoa na angamiza mimea iliyoathirika mara moja.\n2. Dhibiti nzi weupe kwa dawa ya wadudu.\n3. Kamwe usitumie mimea iliyoathirika kwa vipande.\n4. Panda aina zinazostahimili ugonjwa wa mosaki wa muhogo."
+      },
+      "prevention": {
+        "en": "Always use certified clean cuttings from healthy mother plants. Control whiteflies. Plant CMD-resistant varieties (e.g. NASE varieties).",
+        "sw": "Tumia daima vipande safi vyenye cheti kutoka kwa mimea mama yenye afya. Dhibiti nzi weupe. Panda aina zinazostahimili CMD (k.m. aina za NASE)."
+      },
+      "market_impact": {
+        "en": "One of the most devastating cassava diseases in Africa. Can cause 20–95% yield loss. Use only certified planting material.",
+        "sw": "Moja ya magonjwa mabaya zaidi ya muhogo Afrika. Inaweza kusababisha hasara ya mavuno ya 20–95%. Tumia nyenzo za kupanda zenye cheti tu."
+      },
+      "organic_remedies": [
+        "Use virus-free certified cuttings only",
+        "Remove infected plants",
+        "Control whitefly with neem oil"
+      ],
+      "chemical_options": [
+        "Imidacloprid for whitefly control",
+        "Thiamethoxam",
+        "Plant resistant varieties (primary solution)"
+      ]
+    },
+    {
+      "key": "Mango_Anthracnose",
+      "name": {"en": "Mango Anthracnose", "sw": "Anthracnose ya Embe"},
+      "severity": "high",
+      "symptoms": {
+        "en": "Dark brown/black irregular lesions on leaves, flowers and fruit. Flower blight causing massive drop. Fruit develops dark sunken spots after harvest.",
+        "sw": "Majeraha meusi ya kahawia/nyeusi yasiywa ya kawaida kwenye majani, maua na matunda. Ugonjwa wa maua unaosababisha kuanguka kwa wingi. Matunda huendelea kupata madoa meusi yaliyozama baada ya mavuno."
+      },
+      "treatment": {
+        "en": "1. Apply copper or mancozeb fungicide at flowering stage.\n2. Spray every 10–14 days during flowering.\n3. Remove infected fruit and debris.\n4. Post-harvest hot water treatment (52°C for 5 min) reduces storage losses.",
+        "sw": "1. Piga dawa ya shaba au mancozeb wakati wa maua.\n2. Piga dawa kila siku 10–14 wakati wa maua.\n3. Ondoa matunda na mabaki yaliyoathirika.\n4. Matibabu ya maji ya moto baada ya mavuno (52°C kwa dakika 5) hupunguza hasara za uhifadhi."
+      },
+      "prevention": {
+        "en": "Prune for canopy openness. Remove infected branches. Apply fungicide preventively at bud break. Avoid water stress.",
+        "sw": "Kata matawi kwa ufunguzi wa msururu. Ondoa matawi yaliyoathirika. Piga dawa ya kuzuia ukungu kabla ya kuchipua. Epuka msongo wa maji."
+      },
+      "market_impact": {
+        "en": "Mango anthracnose causes major post-harvest losses (20–40%). Critical to treat during flowering for export quality fruit.",
+        "sw": "Anthracnose ya embe husababisha hasara kubwa baada ya mavuno (20–40%). Ni muhimu kutibu wakati wa maua kwa matunda ya ubora wa kuuza nje."
+      },
+      "organic_remedies": [
+        "Copper sulfate (Bordeaux mixture)",
+        "Neem oil during flowering",
+        "Hot water dip post-harvest"
+      ],
+      "chemical_options": [
+        "Mancozeb",
+        "Carbendazim",
+        "Azoxystrobin",
+        "Propiconazole"
+      ]
+    },
+    {
+      "key": "healthy",
+      "name": {"en": "Healthy Plant", "sw": "Mmea Wenye Afya"},
+      "severity": "low",
+      "symptoms": {
+        "en": "No disease signs detected. Plant appears healthy.",
+        "sw": "Hakuna dalili za ugonjwa zilizogunduliwa. Mmea unaonekana mzuri."
+      },
+      "treatment": {
+        "en": "No treatment needed. Continue regular farm management.",
+        "sw": "Hakuna matibabu yanayohitajika. Endelea na usimamizi wa kawaida wa shamba."
+      },
+      "prevention": {
+        "en": "Maintain plant health through regular scouting, balanced nutrition, proper irrigation, and timely pest management.",
+        "sw": "Dumisha afya ya mmea kupitia ukaguzi wa mara kwa mara, lishe bora, umwagiliaji unaofaa, na udhibiti wa wadudu kwa wakati."
+      },
+      "market_impact": {
+        "en": "Healthy crop — aim for premium market grade through continued good practices.",
+        "sw": "Zao zuri — lenga kiwango cha soko cha juu kwa endelea na mazoea mazuri."
+      },
+      "organic_remedies": [],
+      "chemical_options": []
+    }
+  ],
+  "market_prices_note": {
+    "en": "Contact Zanzibar MANREC or local market for current crop prices. Prices vary by season, variety and market destination.",
+    "sw": "Wasiliana na MANREC Zanzibar au soko la mtaa kwa bei za sasa za mazao. Bei hutofautiana kwa msimu, aina na soko lengwa."
+  },
+  "extension_contact": {
+    "en": "Zanzibar Ministry of Agriculture (MANREC): +255 24 223 1951",
+    "sw": "Wizara ya Kilimo Zanzibar (MANREC): +255 24 223 1951"
+  }
+}
