@@ -47,7 +47,7 @@ class ImageSourceSheet extends StatelessWidget {
 
   Future<void> _pickFromFiles(BuildContext context) async {
     Navigator.pop(context);
-    final result = await FilePicker.platform.pickFiles(
+    final result = await FilePicker.pickFiles(
       type: FileType.image,
       allowMultiple: false,
     );
