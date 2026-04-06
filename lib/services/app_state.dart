@@ -50,7 +50,8 @@ class AppState extends ChangeNotifier {
       ]);
 
       _status = AppStatus.ready;
-    } catch (e) {
+    } catch (e, stack) {
+      debugPrint("analyseImage error: $e\n$stack");
       _errorMessage = e.toString();
       _status = AppStatus.error;
     }
@@ -80,7 +81,8 @@ class AppState extends ChangeNotifier {
       }
 
       _status = AppStatus.done;
-    } catch (e) {
+    } catch (e, stack) {
+      debugPrint("analyseImage error: $e\n$stack");
       _errorMessage = e.toString();
       _status = AppStatus.error;
     }
