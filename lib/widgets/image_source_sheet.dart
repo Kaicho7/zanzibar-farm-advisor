@@ -20,6 +20,7 @@ class ImageSourceSheet extends StatelessWidget {
   }
 
   Future<void> _pickFromCamera(BuildContext context) async {
+    final appState = context.read<AppState>(); // capture before pop
     Navigator.pop(context);
     final picker = ImagePicker();
     final xfile = await picker.pickImage(
@@ -27,12 +28,13 @@ class ImageSourceSheet extends StatelessWidget {
       imageQuality: 90,
       maxWidth: 1080,
     );
-    if (xfile != null && context.mounted) {
-      context.read<AppState>().analyseImage(File(xfile.path));
+    if (xfile != null) {
+      appState.analyseImage(File(xfile.path));
     }
   }
 
   Future<void> _pickFromGallery(BuildContext context) async {
+    final appState = context.read<AppState>(); // capture before pop
     Navigator.pop(context);
     final picker = ImagePicker();
     final xfile = await picker.pickImage(
@@ -40,19 +42,20 @@ class ImageSourceSheet extends StatelessWidget {
       imageQuality: 90,
       maxWidth: 1080,
     );
-    if (xfile != null && context.mounted) {
-      context.read<AppState>().analyseImage(File(xfile.path));
+    if (xfile != null) {
+      appState.analyseImage(File(xfile.path));
     }
   }
 
   Future<void> _pickFromFiles(BuildContext context) async {
+    final appState = context.read<AppState>(); // capture before pop
     Navigator.pop(context);
     final result = await FilePicker.pickFiles(
       type: FileType.image,
       allowMultiple: false,
     );
-    if (result != null && result.files.single.path != null && context.mounted) {
-      context.read<AppState>().analyseImage(File(result.files.single.path!));
+    if (result != null && result.files.single.path != null) {
+      appState.analyseImage(File(result.files.single.path!));
     }
   }
 
@@ -68,7 +71,6 @@ class ImageSourceSheet extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          // Drag handle
           Container(
             width: 40, height: 4,
             margin: const EdgeInsets.only(bottom: 20),
