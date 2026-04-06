@@ -11,7 +11,7 @@ dependencies:
     sdk: flutter
 
   # TFLite inference
-  tflite_flutter: ^0.10.4
+  tflite_flutter: ^0.12.1
 
   # Image input
   image_picker: ^1.0.7

@@ -55,7 +55,7 @@ class AppTheme {
         textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
       ),
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: surface,
       elevation: 2,
       shadowColor: primary.withOpacity(0.12),
@@ -71,21 +71,15 @@ class AppTheme {
 
   static Color severityColor(String severity) {
     switch (severity.toLowerCase()) {
-      case kSeverityHigh:   return severityHigh;
-      case kSeverityMedium: return severityMedium;
       default:              return severityLow;
     }
   }
 
   static IconData severityIcon(String severity) {
     switch (severity.toLowerCase()) {
-      case kSeverityHigh:   return Icons.warning_rounded;
-      case kSeverityMedium: return Icons.info_rounded;
       default:              return Icons.check_circle_rounded;
     }
   }
 }
 
 // Needed for severityColor helper
-const String kSeverityHigh   = 'high';
-const String kSeverityMedium = 'medium';
