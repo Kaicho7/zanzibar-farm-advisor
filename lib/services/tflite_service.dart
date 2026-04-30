@@ -114,7 +114,7 @@ class TFLiteService {
     final results = <Prediction>[];
     for (int i = 0; i < kTopK && i < indexed.length; i++) {
       final entry = indexed[i];
-      if (entry.value >= kConfidenceThreshold || i == 0) {
+      if (entry.value >= kConfidenceThreshold) {
         final label = entry.key < _labels.length
             ? _labels[entry.key]
             : 'Unknown_${entry.key}';
@@ -124,6 +124,11 @@ class TFLiteService {
           index: entry.key,
         ));
       }
+    }
+    if (results.isEmpty && indexed.isNotEmpty) {
+      final e = indexed[0];
+      final label = e.key < _labels.length ? _labels[e.key] : 'Unknown';
+      results.add(Prediction(label: label, confidence: e.value, index: e.key));
     }
     return results;
   }

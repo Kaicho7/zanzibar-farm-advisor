@@ -99,6 +99,11 @@ class ResultScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  // Low confidence warning
+                  if (top.confidence < kLowConfidenceThreshold)
+                    _LowConfidenceWarning(confidence: top.confidence, state: state),
+                  if (top.confidence < kLowConfidenceThreshold)
+                    const SizedBox(height: 12),
                   // Confidence scores
                   _ConfidenceSection(result: result, state: state),
                   const SizedBox(height: 16),
@@ -368,6 +373,41 @@ class _HealthyCard extends StatelessWidget {
               ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+// ── Low Confidence Warning ─────────────────────────────────────────────────
+
+class _LowConfidenceWarning extends StatelessWidget {
+  final double confidence;
+  final AppState state;
+  const _LowConfidenceWarning({required this.confidence, required this.state});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+      decoration: BoxDecoration(
+        color: const Color(0xFFFFF3CD),
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(color: const Color(0xFFFFD700)),
+      ),
+      child: Row(
+        children: [
+          const Icon(Icons.warning_amber_rounded, color: Color(0xFFB8860B), size: 20),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Text(
+              state.t(
+                'Low confidence — try a clearer photo of the leaf.',
+                'Uhakika mdogo — jaribu picha wazi zaidi ya jani.',
+              ),
+              style: const TextStyle(fontSize: 13, color: Color(0xFF7B6000), height: 1.4),
+            ),
+          ),
+        ],
       ),
     );
   }

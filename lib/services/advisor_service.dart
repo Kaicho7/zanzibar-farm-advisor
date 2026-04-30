@@ -44,25 +44,37 @@ class AdvisorService {
   /// Find the best advice for a prediction
   DiseaseAdvice? getAdviceFor(Prediction prediction) {
     if (prediction.isHealthy) {
-      // Return the healthy entry
-      return _diseases.firstWhere(
+      return _diseases.firstWhereOrNull(
         (d) => d.key.toLowerCase() == 'healthy',
-        orElse: () => _diseases.first,
       );
     }
 
-    final labelLower = prediction.label.toLowerCase();
-    final conditionLower = prediction.condition.toLowerCase();
+    final rawLabel = prediction.label.toLowerCase()
+        .replaceAll('(', '').replaceAll(')', '').replaceAll(' ', '_');
+    final cropPart = prediction.crop.toLowerCase()
+        .replaceAll('(', '').replaceAll(')', '').replaceAll(' ', '_');
+    final conditionPart = prediction.condition.toLowerCase()
+        .replaceAll(' ', '_');
 
-    // Exact key match first
+    // 1. Full label contains the advice key
     DiseaseAdvice? best = _diseases.firstWhereOrNull(
-      (d) => labelLower.contains(d.key.toLowerCase()),
+      (d) => rawLabel.contains(d.key.toLowerCase().replaceAll(' ', '_')),
     );
 
-    // Fuzzy match on condition words if no exact match
+    // 2. Both crop AND condition must match
     best ??= _diseases.firstWhereOrNull((d) {
-      final keyWords = d.key.toLowerCase().replaceAll('_', ' ').split(' ');
-      return keyWords.any((w) => conditionLower.contains(w) && w.length > 3);
+      final dk = d.key.toLowerCase().replaceAll(' ', '_');
+      final parts = dk.split('_').where((w) => w.length > 3).toList();
+      return parts.isNotEmpty &&
+             parts.every((w) => rawLabel.contains(w));
+    });
+
+    // 3. All significant condition words must match (not just any)
+    best ??= _diseases.firstWhereOrNull((d) {
+      final dkWords = d.key.toLowerCase().replaceAll('_', ' ')
+          .split(' ').where((w) => w.length > 4).toList();
+      return dkWords.length >= 2 &&
+             dkWords.every((w) => conditionPart.contains(w));
     });
 
     return best;
